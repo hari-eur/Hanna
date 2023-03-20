@@ -1,0 +1,61 @@
+1.
+#include <stdio.h>
+#define printapi(fmt, ...) printf(fmt, ##__VA_ARGS__)
+
+int main() 
+{
+  char str0[] = "World";
+  char str1[] = "program";
+  char str2[] = "print";
+  printapi("Hello %s\n", str0);
+  printapi("Sample %s for %s\n", str1,str2);
+}
+
+Hello World
+Sample program for print
+
+
+2.
+#include<stdio.h>
+int main() 
+{
+    int i,j,n,m;
+    printf("Dim:\n");
+    scanf("%d",&n);
+    int a[n][n];
+    for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            scanf("%d",&a[i][j]);
+        }
+    }
+    printf("Replace Val");
+    scanf("%d",&m);
+    for(i=1;i<n;i++){
+        for(j=0;j<n;j++){
+            if(a[i][j]==m){
+                a[i][j]=a[i-1][j];
+            }
+        }
+    }
+    printf("Result\n");
+    for(i=0;i<n;i++) {
+        for(j=0; j<n;j++) {
+            printf("%d ",a[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+Dim:
+3
+1 2 3
+8 5 6
+7 8 9
+Replace Val8
+Result
+1 2 3 
+1 5 6 
+7 5 9 
+
+
+3.
