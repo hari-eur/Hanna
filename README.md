@@ -81,3 +81,24 @@ Explanation:
 sort numbers and alphabets in subsets
 123434 - acibdf - 295869 - asdsd - 37695 - dfgasd
 123344 - abcdfi - 256899 - addss - 35679 - addfgs
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+
+ The exercise questions of Module 4:
+
+ 
+
+Exercise questions:
+
+1.Setup GDB and run it with program with strings and pointers program(below exercises of strings and pointers). Introduce segmentation fault in your code and use gdb to debug and fix the error step by step.[Upload steps/images and commands output]
+
+ 2. Write a program to handle strings
+    i) Get string as input and store it in array 
+    ii) Check string if it is 8 character length, contains atleast one lowercase and uppercase,one number and one special character with and without string functions/char lib functions.
+
+ 3. Create a fixed array and use pointers to transverse through elements and print the output.
+
+ 4. Write a program to Check string if it is 8 character length, contains atleast one lowercase and uppercase,one number,one special character and possible permutations using pointers
+
+ 5.Write a C program that dynamically allocates an array of integers using either malloc or calloc, populates it with values entered by the user, and then calculates and prints the sum of all the values in the array. The program should then use the free function to deallocate the memory used by the array
