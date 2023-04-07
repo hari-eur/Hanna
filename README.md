@@ -102,3 +102,78 @@ Exercise questions:
  4. Write a program to Check string if it is 8 character length, contains atleast one lowercase and uppercase,one number,one special character and possible permutations using pointers
 
  5.Write a C program that dynamically allocates an array of integers using either malloc or calloc, populates it with values entered by the user, and then calculates and prints the sum of all the values in the array. The program should then use the free function to deallocate the memory used by the array
+ 
+ _________________________________________________________________________________________________________________________________________________________________
+ 
+ 
+ Exercise questions:
+
+Write a c program with nested structure implementation with below data, 
+Structure 1: Student_Detailes (Name,mailID,Mobile number,Percentage) 
+
+Structure 2:Department(Dept Name,Struct Student_Details,TotalAveverage) 
+
+Program takes input of all the fields above except Total Average per department. Calculate Total Average per department. 
+
+Sample Input: 
+
+Number of Inputs: 2 
+
+Shiva shive@xxx.com 123456789 90% IT  
+
+Giri giri@xxx.com 123456789 99% ECE 
+
+Sample OutPut: 
+
+Number of branches: 2 
+
+Average percentage per Department: 
+
+IT – 90% 
+
+ECE – 99% 
+
+2) Write structure with below mentioned variables and make the sizeof struct return 8 bytes only.But it should take input for all the below values and print the same. 
+
+Variables in the structure: 
+
+Hours 
+Minutes 
+Seconds 
+Day 
+Month  
+Year 
+3) Write a program to get the input from the file and create a new encrypted file and then read the encrypted file and decrypt the content. 
+
+“You can use any logic for Encryption and decryption. When the Encrypted file is open it should not be in readable format ” 
+
+ Sample Input/Output : 
+
+Enter 
+
+E to encrypt  
+D to decrypt  
+Q to quit 
+E 
+
+Enter the file to be Encrypted:/tmp/data.txt 
+
+Encrypted File is /tmp/data_encrypted.txt 
+
+Enter 
+
+E to encrypt  
+D to decrypt  
+Q to quit 
+D 
+
+Enter the file to be decrypted:  /tmp/data_encrypted.txt 
+
+Decrypted file is /tmp/data_decrypted.txt 
+
+Enter 
+
+E to encrypt  
+D to decrypt  
+Q to quit 
+Q 
